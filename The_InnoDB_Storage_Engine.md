@@ -1,5 +1,5 @@
 ## 第15章 InnoDB存储引擎
-- [15.1 InnoDB介绍](Introduction_to_InnoDB.md)
+- [15.1 InnoDB简介](The_InnoDB_Storage_Engine/innodb-introduction.md)
 - [15.2 InnoDB和ACID模型](InnoDB_and_the_ACID_Model.md)
 - [15.3 InnoDB多版本并发控制](InnoDB_Multi-Versioning.md)
 - [15.4 InnoDB架构](InnoDB Architecture)
