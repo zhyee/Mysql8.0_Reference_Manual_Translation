@@ -3,9 +3,9 @@
 > 原文地址：https://dev.mysql.com/doc/refman/8.0/en/innodb-introduction.html
 
 - [15.1.1 Benefits of Using InnoDB Tables](Introduction_to_InnoDB/innodb-benefits.md)
-- [15.1.2 Best Practices for InnoDB Tables]()
-- [15.1.3 Verifying that InnoDB is the Default Storage Engine]()
-- [15.1.4 Testing and Benchmarking with InnoDB]()
+- [15.1.2 Best Practices for InnoDB Tables](Introduction_to_InnoDB/innodb-best-practices.md)
+- [15.1.3 Verifying that InnoDB is the Default Storage Engine]
+- [15.1.4 Testing and Benchmarking with InnoDB]
 
 InnoDB是一个兼顾了高可用和高性能的存储引擎，在MySQL8.0里，它是默认的存储引擎。如果你没有配置一个其他的存储引擎作为默认的存储引擎，那么省略了ENGINE=xxx的"CREATE TABLE"建表语句默认创建的是InnoDB表。
 
