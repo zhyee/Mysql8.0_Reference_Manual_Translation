@@ -1,5 +1,7 @@
 ## 15.1 InnoDB简介
 
+> 原文地址：https://dev.mysql.com/doc/refman/8.0/en/innodb-introduction.html
+
 - [15.1.1 Benefits of Using InnoDB Tables](Introduction_to_InnoDB/innodb-benefits.md)
 - [15.1.2 Best Practices for InnoDB Tables]()
 - [15.1.3 Verifying that InnoDB is the Default Storage Engine]()
