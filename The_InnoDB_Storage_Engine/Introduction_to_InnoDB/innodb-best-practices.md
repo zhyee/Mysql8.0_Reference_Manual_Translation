@@ -19,4 +19,4 @@
 
 - 评估你的数据库数据或者访问者是否可以利用InnoDB的表或页压缩功。你可以在不牺牲读写性能的情况下压缩InnoDB表。
 
-- 你可以使用 `--sql_mode=NO_ENGINE_SUBSTITUTION` 来限制别人在`CREATE TABLE`语句中用`ENGINE=``语法来创建其他的存储引擎表。
+- 你可以使用 `--sql_mode=NO_ENGINE_SUBSTITUTION` 来限制别人在`CREATE TABLE`语句中用`ENGINE=`语法来创建其他的存储引擎表。
