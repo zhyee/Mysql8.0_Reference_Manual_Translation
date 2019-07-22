@@ -3,7 +3,7 @@
 - [15.2 InnoDB和ACID模型](The_InnoDB_Storage_Engine/mysql-acid.md)
 - [15.3 InnoDB多版本并发控制](The_InnoDB_Storage_Engine/innodb-multi-versioning.md)
 - [15.4 InnoDB架构](The_InnoDB_Storage_Engine/innodb-architecture.md)
-- [15.5 InnoDB内存结构](InnoDB In-Memory Structures)
+- [15.5 InnoDB内存结构](The_InnoDB_Storage_Engine/innodb-in-memory-structures.md)
 - [15.6 InnoDB磁盘结构](InnoDB On-Disk Structures)
 - [15.7 InnoDB锁和事务模型](InnoDB Locking and Transaction Model)
 - [15.8 InnoDB配置](InnoDB Configuration)
