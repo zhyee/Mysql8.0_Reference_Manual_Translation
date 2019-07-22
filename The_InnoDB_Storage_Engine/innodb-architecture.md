@@ -6,4 +6,4 @@
 
 #### 图表15.1 InnoDB架构图
 
-![](/resources/innodb-architecture.png)
+![](../resources/innodb-architecture.png)
