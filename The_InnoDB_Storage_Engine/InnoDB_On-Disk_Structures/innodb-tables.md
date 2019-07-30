@@ -2,7 +2,7 @@
 
 > 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/innodb-tables.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-tables.html)
 
-15.6.1.1 创建InnoDB表
+[15.6.1.1 创建InnoDB表](Tables/using-innodb-tables.md)
 
 15.6.1.2 移动和复制InnoDB表
 

@@ -3,3 +3,5 @@
 > 原文地址： [https://dev.mysql.com/doc/refman/8.0/en/using-innodb-tables.html](https://dev.mysql.com/doc/refman/8.0/en/using-innodb-tables.html)
 
 你可以使用 `CREATE TABLE`语句来创建一张InnoDB表。
+
+> CREATE TABLE t1 (a INT, b CHAR (20), PRIMARY KEY (a)) ENGINE=InnoDB;
