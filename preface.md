@@ -1,6 +1,6 @@
 ## 前言和法律声明
 
-> 原文地址： https://dev.mysql.com/doc/refman/8.0/en/preface.html
+> 原文地址： [https://dev.mysql.com/doc/refman/8.0/en/preface.html](https://dev.mysql.com/doc/refman/8.0/en/preface.html)
 
 这是MySQL数据库8.0到8.0.19发行版的参考手册。MySQL8.0小版本之间的区别在相关版本（8.0.x）的呈现文档上有提到。要查看许可证信息请阅读法律声明。
 
@@ -30,4 +30,15 @@ Intel和Intel Xeon是Intel公司的商标或注册商标。所有SPARC商标在�
 AMD、Opteron、AMD标志和AMD Opteron标志是AMD的商标或注册商标。UNIX是开放组织的注册商标。
 
 
-此软硬件和文档可能可供来自第三方的内容、产品或服务的访问或信息。除非您与Oracle之间的适用协议另有规定，否则Oracle公司及其附属公司不对任何第三方的内容、产品和服务承担和担保任何责任。除非您与Oracle签订的适用协议另有规定，否则Orcle公司以及附属公司不会对您使用第三方提供的内容、产品或服务所造成的损失、成本和损害负责。
+此软硬件和文档可能可供来自第三方的内容、产品或服务的访问或信息。除非您与Oracle之间的适用协议另有规定，否则Oracle公司及其附属公司不对任何第三方的内容、产品和服务承担和担保任何责任。除非您与Oracle签订的适用协议另有规定，否则Orcle公司以及附属公司不会对您使用第三方提供的内容、产品或服务所造成的损失、引发的成本和损失负责。
+
+本文档 **不是** 使用GPL协议分发。使用本文档需要遵守以下条款：
+
+你可以打印本文档的副本仅供你个人使用。只要实质内容没有以任何方式进行实质性的更改和编辑，把文档转换成其他格式是允许的。除非你使用和Oracle类似的发布文档的方式（即通过软件的网站下载电子版）或者用CD-ROM或者类似的媒介，总之本文档需要和本软件在相同的媒介上捆绑发布。任何其他用途，例如在其他出版物中全部或部分传播印刷本或使用本文档，均需得到Oracle授权人的书面同意。Oracle及其附属公司保留不限于上文提到的文档的所有权限。
+
+##### 文档可访问性
+
+了解更多关于Oracle文档的可访问性承诺，请查看位于[http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc](http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc)的Oracle可访问程序网站。
+
+##### 获取Oracle支持
+已经购买了Oracle支持服务的用户可以得到通过`我的Oracle支持`获得在线支持。更多相关信息，请访问网站[http://www.oracle.com/pls/topic/lookup?ctx=acc&id=info](http://www.oracle.com/pls/topic/lookup?ctx=acc&id=info)，或者有听力障碍的用户可以访问[http://www.oracle.com/pls/topic/lookup?ctx=acc&id=trs]( http://www.oracle.com/pls/topic/lookup?ctx=acc&id=trs)。
