@@ -1,6 +1,6 @@
 ## 15.1.1 InnoDB表的优势
 
-> 原文地址：https://dev.mysql.com/doc/refman/8.0/en/innodb-benefits.html
+> 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/innodb-benefits.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-benefits.html)
 
 你将会发现使用InnoDB会有如下的优势：
 

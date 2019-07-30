@@ -1,6 +1,6 @@
 ## 15.5.2 更新缓冲
 
-> 原文地址：https://dev.mysql.com/doc/refman/8.0/en/innodb-change-buffer.html
+> 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/innodb-change-buffer.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-change-buffer.html)
 
 更新缓冲是一种用于缓存对不在buffer pool里的二级索引页的修改。这写更新可能来自`INSERT`,`UPDATE`或者`DELETE`等操作(DML)，稍后这些更新会被其他的读操作合并到buffer pool中。
 

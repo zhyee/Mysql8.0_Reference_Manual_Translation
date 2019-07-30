@@ -1,6 +1,6 @@
 ## 15.1 InnoDB简介
 
-> 原文地址：https://dev.mysql.com/doc/refman/8.0/en/innodb-introduction.html
+> 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/innodb-introduction.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-introduction.html)
 
 - [15.1.1 使用InnoDB存储引擎的优势](Introduction_to_InnoDB/innodb-benefits.md)
 - [15.1.2 InnoDB存储引擎最佳实践](Introduction_to_InnoDB/innodb-best-practices.md)

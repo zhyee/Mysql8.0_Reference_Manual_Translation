@@ -1,6 +1,6 @@
 ## 15.2 InnoDB和ACID模型
 
-> 原文地址：https://dev.mysql.com/doc/refman/8.0/en/mysql-acid.html
+> 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/mysql-acid.html](https://dev.mysql.com/doc/refman/8.0/en/mysql-acid.html)
 
 ACID模型是一套增强数据库可靠性的设计原则，而这对于商业数据和关键业务的应用程序来说是非常重要的。MySQL数据库拥有像InnoDB存储引擎类似的基本遵循ACID模型的组件，因此遇到软硬件故障时不会导致数据错乱或者返回错误的结果。当你使用遵循ACID的特性时，你不需要重复造轮子来进行一致性检验或者自己实现故障恢复机制。如果你有额外的保障机制，或者高可用的硬件，抑或是可以容忍一小部分数据丢失或不一致的情况下，你可以调整MySQL的配置降低部分ACID可靠性来换取更高的性能和吞吐量。
 

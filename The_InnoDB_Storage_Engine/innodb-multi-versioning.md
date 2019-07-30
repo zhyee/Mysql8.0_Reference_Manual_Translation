@@ -1,6 +1,6 @@
 ## 15.3 InnoDB多版本并发控制
 
-> 原文地址：https://dev.mysql.com/doc/refman/8.0/en/innodb-multi-versioning.html
+> 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/innodb-multi-versioning.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-multi-versioning.html)
 
 InnoDB是一个多版本存储引擎：它保存改变的行的旧版信息，以此来支持如并发和回滚的事务特性。这些信息用一种称之为`rollback segment`的数据结构保存在表空间里(类似Oracle里的一种数据结构)。InnoDB同时使用这些信息来保存较早的行数据用于一致性读(`consistent read`)。
 

@@ -1,6 +1,6 @@
 ##15.5.3 自动哈希索引
 
-> 原文地址：https://dev.mysql.com/doc/refman/8.0/en/innodb-adaptive-hash.html
+> 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/innodb-adaptive-hash.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-adaptive-hash.html)
 
 在负载和足够buffer pool使用内存恰当的组合的系统之上，自适应哈希索引特性能够让InnoDB表现的更像是一个内存数据库，并且这个特性没有牺牲事务特性和系统的可靠性。可以用`innodb_adaptive_hash_index`变量来开启自适应哈希索引特性，或者在启动服务器时加参数`--skip-innodb_adaptive_hash_index`来关闭该特性。
 

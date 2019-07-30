@@ -1,6 +1,6 @@
 ## 15.1.4 对InnoDB进行功能测试和基准测试
 
-> 原文地址：https://dev.mysql.com/doc/refman/8.0/en/innodb-benchmarking.html
+> 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/innodb-benchmarking.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-benchmarking.html)
 
 如果InnoDB不是你的默认存储引擎，你可以在命令行中用参数 `--default-storage-engine=InnoDB`，或者在MySQL服务器的配置文件中的 [mysqld]段配置值`default-storage-engine=innodb`来重启你的服务器，然后验证你的服务器或应用程序是否运行正常。
 

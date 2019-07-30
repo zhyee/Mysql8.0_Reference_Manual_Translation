@@ -1,6 +1,6 @@
 ## 15.1.2 InnoDB最佳实践
 
-> 原文地址：https://dev.mysql.com/doc/refman/8.0/en/innodb-best-practices.html
+> 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/innodb-best-practices.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-best-practices.html)
 
 这一章节介绍使用InnoDB的最佳实践。
 

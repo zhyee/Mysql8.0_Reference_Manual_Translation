@@ -1,6 +1,6 @@
 ## 15.5.1 缓冲池
 
-> 原文地址：https://dev.mysql.com/doc/refman/8.0/en/innodb-buffer-pool.html
+> 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/innodb-buffer-pool.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-buffer-pool.html)
 
 缓冲池是一个存在内存中用来缓存被访问了的表和索引数据的区域。缓冲池可以让频繁访问的数据直接从内存读取，从而加速处理。在独立部署的数据库服务器上，高达80%的物理内存常常都分配给缓冲池。
 
