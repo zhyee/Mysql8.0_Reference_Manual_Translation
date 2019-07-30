@@ -8,7 +8,7 @@
 - [15.3 InnoDB多版本并发控制](The_InnoDB_Storage_Engine/innodb-multi-versioning.md)
 - [15.4 InnoDB架构](The_InnoDB_Storage_Engine/innodb-architecture.md)
 - [15.5 InnoDB内存结构](The_InnoDB_Storage_Engine/innodb-in-memory-structures.md)
-- [15.6 InnoDB磁盘结构](InnoDB On-Disk Structures)
+- [15.6 InnoDB磁盘存储结构](The_InnoDB_Storage_Engine/innodb-on-disk-structures.md)
 - [15.7 InnoDB锁和事务模型](InnoDB Locking and Transaction Model)
 - [15.8 InnoDB配置](InnoDB Configuration)
 - [15.9 InnoDB表和页压缩](InnoDB Table and Page Compression)
