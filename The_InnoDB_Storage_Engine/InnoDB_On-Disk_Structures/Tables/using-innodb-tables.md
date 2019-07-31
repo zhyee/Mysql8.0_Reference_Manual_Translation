@@ -26,3 +26,11 @@ mysql> SELECT @@default_storage_engine;
 内部实现来说，InnoDB为每一张表的实体添加进数据字典。此实体包含数据库名。例如，如果t1表是创建在test数据库上，数据库名的数句字典实体名称是'test/t1'。这意味着你可以在不同的数据库中创建相同名字的表，并且表明不会冲突。
 
 ##### InnoDB表和行格式
+
+InnoDB表的默认行格式可以由`innodb_default_row_format`配置选项来配置，它的默认值是DYNAMIC。 动态和压缩的行格式允许你充分利用InnoDB表的优势，例如表压缩和高效的跨页超长列值支持。为了能使用这个行格式，配置`innodb_file_per_table`必须是打开的(默认是打开的)。
+
+```
+SET GLOBAL innodb_file_per_table=1;
+CREATE TABLE t3 (a INT, b CHAR (20), PRIMARY KEY (a)) ROW_FORMAT=DYNAMIC;
+CREATE TABLE t4 (a INT, b CHAR (20), PRIMARY KEY (a)) ROW_FORMAT=COMPRESSED;
+```
