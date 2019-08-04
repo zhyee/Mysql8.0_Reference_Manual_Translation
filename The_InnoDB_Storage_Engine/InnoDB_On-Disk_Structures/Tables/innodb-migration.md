@@ -60,7 +60,8 @@ ALTER TABLE tbl_name DISCARD TABLESPACE;
 ALTER TABLE tbl_name IMPORT TABLESPACE;
 ```
 
-> *Note*
+> **Note**
+
 > `ALTER TABLE ... IMPORT TABLESPACE` 特性不会对导入的数据做强制外键约束。
 
 在本文中，一份“干净”的.ibd 文件需要满足下列条件：

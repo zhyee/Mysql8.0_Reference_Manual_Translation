@@ -6,7 +6,7 @@
 
 [15.6.1.2 移动和复制InnoDB表](Tables/innodb-migration.md)
 
-15.6.1.3 把存储引擎从MyISAM修改为InnoDB
+[15.6.1.3 把存储引擎从MyISAM切换为InnoDB](Tables/converting-tables-to-innodb.md)
 
 15.6.1.4 InnoDB自增的处理
 
