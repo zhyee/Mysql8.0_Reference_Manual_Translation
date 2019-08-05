@@ -1,4 +1,4 @@
-## 15.1.1 InnoDB表的优势
+## 15.1.1 InnoDB存储引擎的优势
 
 > 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/innodb-benefits.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-benefits.html)
 
@@ -31,7 +31,7 @@
 
 - 你可以放心的混用InnoDB和其他的存储引擎，即使是在同一个查询语句中。例如，你可以在InnoDB表和内存表之间使用JOIN操作。
 
-- InnoDB为处理大量的数据做了最大额cpu和性能的优化。
+- InnoDB为处理大量的数据做了最大程度的cpu和性能上的优化。
 - InnoDB即使在操作系统限制单个文件大小在2GB以下，也能处理大量的数据。
 
 关于InnoDB在代码中的调优技术，请参阅 “第8.5节 InnoDB表优化”。
