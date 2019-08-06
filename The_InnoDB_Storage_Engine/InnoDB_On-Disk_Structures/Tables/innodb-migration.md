@@ -41,7 +41,8 @@ InnoDB数据和日志文件在所有相同浮点数格式的平台上都是二�
 当你移动或拷贝单文件表的.ibd 文件时，目标数据库文件夹名必须和源数据库相同。存储在InnoDB共享空间的表定义包含数据库名。存储在表空间的事务号和日志序列号在数据库间同样也是不一样的。
 
 为了移动一个 .ibd 文件和关联的表到另一个数据库，使用 `RENAME TABLE`语句:
-```
+
+```sql
 RENAME TABLE db1.tbl_name TO db2.tbl_name;
 ```
 
@@ -50,19 +51,18 @@ RENAME TABLE db1.tbl_name TO db2.tbl_name;
 1. 拷贝.ibd文件之后表必须没被删除或清空，因为这些操作会让存储在表空间的表ID发生变化。
 2. 使用 `ALTER TABLE` 语句来删除当前的.ibd文件。
 
-```
+```sql
 ALTER TABLE tbl_name DISCARD TABLESPACE;
 ```
 3. 拷贝备份的.ibd 文件到合适的数据库目录。
 4. 使用`ALTER TABLE`语句来告诉InnoDB使用新的 .ibd文件:
 
-```
+```sql
 ALTER TABLE tbl_name IMPORT TABLESPACE;
 ```
 
-> **Note**
-
-> `ALTER TABLE ... IMPORT TABLESPACE` 特性不会对导入的数据做强制外键约束。
+   > **Note**
+   > `ALTER TABLE ... IMPORT TABLESPACE` 特性不会对导入的数据做强制外键约束。
 
 在本文中，一份“干净”的.ibd 文件需要满足下列条件：
 

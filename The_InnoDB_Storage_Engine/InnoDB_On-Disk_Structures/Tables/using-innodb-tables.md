@@ -29,7 +29,7 @@ mysql> SELECT @@default_storage_engine;
 
 InnoDB表的默认行格式可以由`innodb_default_row_format`配置选项来配置，它的默认值是DYNAMIC。 动态和压缩的行格式允许你充分利用InnoDB表的优势，例如表压缩和高效的跨页超长列值支持。为了能使用这个行格式，配置`innodb_file_per_table`必须是打开的(默认是打开的)。
 
-```
+```sql
 SET GLOBAL innodb_file_per_table=1;
 CREATE TABLE t3 (a INT, b CHAR (20), PRIMARY KEY (a)) ROW_FORMAT=DYNAMIC;
 CREATE TABLE t4 (a INT, b CHAR (20), PRIMARY KEY (a)) ROW_FORMAT=COMPRESSED;
@@ -37,13 +37,13 @@ CREATE TABLE t4 (a INT, b CHAR (20), PRIMARY KEY (a)) ROW_FORMAT=COMPRESSED;
 
 或者，你可以使用`CREATE TABLE ... TABLESPACE` 语法在通用表空间来创建一张InnoDB表。通用表空间支持所有的行格式。更多信息请查看`第15.6.3.3节 通用表空间`。
 
-```
+```sql
 CREATE TABLE t1 (c1 INT PRIMARY KEY) TABLESPACE ts1 ROW_FORMAT=DYNAMIC;
 ```
 
 `CREATE TABLE ... TABLESPACE` 语法也能用于在系统表空间创建动态行格式的InnoDB表，以及拥有紧凑或者冗余行格式的表。
 
-```
+```sql
 CREATE TABLE t1 (c1 INT PRIMARY KEY) TABLESPACE = innodb_system ROW_FORMAT=DYNAMIC;
 ```
 

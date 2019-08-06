@@ -5,7 +5,6 @@
 如果你想把MyISAM表转换为InnoDB表从而获得更高的可靠性和可扩展性，在转换之前你需要回顾一下这里的指导和提示。
 
 > **Note**
-
 > 旧版本MySQL分区的MyISAM表和MySQL8.0是不兼容的。这类表在转换之前需要做一定的处理，要么移除分区，要么把它们转换成InnoDB表。查看`第23.6.2节 存储引擎的分区限制`获得更多信息。
 
 - 调整为MyISAM和InnoDB存储引擎的内存使用
@@ -87,7 +86,7 @@
 插入数据后你也可以给你的InnoDB表创建索引。历史经验来看，为InnoDB创建二级索引是一个非常慢的操作，但是现在你可以在出入数据后创建索引，从而创建索引引发的开销相对较小。
 
 如果你的二级索引有唯一键约束，你可以通过临时关闭唯一性检测来加速导入操作：
-```
+```sql
 SET unique_checks=0;
 ... import operation ...
 SET unique_checks=1;
@@ -96,7 +95,7 @@ SET unique_checks=1;
 对于大型的表，因为InnoDB能够使用它的change buffer能够批量的写入二级索引从而能够节约磁盘I/O。当然要确保数据没有重复的key。`unique_checks`允许但不要求存储引擎忽略重复的key。
 为了更高效的控制插入处理，你可以分批的插入数据到大型表。
 
-```
+```sql
 INSERT INTO newtable SELECT * FROM oldtable
    WHERE yourkey > something AND yourkey <= somethingelse;
 ```

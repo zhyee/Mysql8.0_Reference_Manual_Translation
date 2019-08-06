@@ -8,7 +8,7 @@
 
 [15.6.1.3 把存储引擎从MyISAM切换为InnoDB](Tables/converting-tables-to-innodb.md)
 
-15.6.1.4 InnoDB自增的处理
+[15.6.1.4 InnoDB自增的处理](Tables/innodb-auto-increment-handling.md)
 
 15.6.1.5 InnoDB的外键约束
 

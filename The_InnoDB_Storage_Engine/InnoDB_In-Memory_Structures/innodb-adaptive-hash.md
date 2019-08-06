@@ -1,4 +1,4 @@
-##15.5.3 自动哈希索引
+## 15.5.3 自动哈希索引
 
 > 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/innodb-adaptive-hash.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-adaptive-hash.html)
 
