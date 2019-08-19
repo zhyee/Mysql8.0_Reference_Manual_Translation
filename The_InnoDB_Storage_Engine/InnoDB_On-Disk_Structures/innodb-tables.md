@@ -10,8 +10,8 @@
 
 [15.6.1.4 InnoDB自增的处理](Tables/innodb-auto-increment-handling.md)
 
-15.6.1.5 InnoDB的外键约束
+[15.6.1.5 InnoDB的外键约束](Tables/innodb-foreign-key-constraints.md)
 
-15.6.1.6 InnoDB表的限制
+[15.6.1.6 InnoDB表的限制](Tables/innodb-restrictions.md)
 
 这一小节包含InnoDB表相关的主题。
