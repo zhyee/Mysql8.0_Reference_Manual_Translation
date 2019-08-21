@@ -2,9 +2,9 @@
 
 > 原文地址 [https://dev.mysql.com/doc/refman/8.0/en/innodb-on-disk-structures.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-on-disk-structures.html)
 
-[15.6.1 表相关](InnoDB_On-Disk_Structures/innodb-tables.md)
+[15.6.1 表](InnoDB_On-Disk_Structures/innodb-tables.md)
 
-[15.6.2 索引相关]
+[15.6.2 索引](InnoDB_On-Disk_Structures/innodb-indexes.md)
 
 [15.6.3 表空间]
 
