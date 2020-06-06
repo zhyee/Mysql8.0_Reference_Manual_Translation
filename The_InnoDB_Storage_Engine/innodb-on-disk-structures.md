@@ -6,7 +6,7 @@
 
 [15.6.2 索引](InnoDB_On-Disk_Structures/innodb-indexes.md)
 
-[15.6.3 表空间]
+[15.6.3 表空间](InnoDB_On-Disk_Structures/innodb-tablespace.md)
 
 [15.6.4 双写缓冲]
 
