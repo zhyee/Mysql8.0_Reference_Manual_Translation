@@ -112,7 +112,7 @@ innodb_data_file_path=/dev/hdd1:3Graw;/dev/hdd2:2Graw
 innodb_data_home_dir=
 innodb_data_file_path=//./D::10Gnewraw
 ```
-//./ 指代Windows中的\\.\，表示要访问物理驱动器。在上面的例子里，D:是分区的盘符。
+//./ 指代Windows中的\\\\.\，表示要访问物理驱动器。在上面的例子里，D:是分区的盘符。
 
 2. 重启服务器。InnoDB观察到newraw关键词后会去初始化新的分区。
 
