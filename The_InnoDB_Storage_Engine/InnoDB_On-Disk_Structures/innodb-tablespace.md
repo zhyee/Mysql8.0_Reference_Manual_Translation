@@ -5,7 +5,7 @@
 
 [15.6.3.2 单文件表的表空间](innodb-file-per-table-tablespaces.md)
 
-[15.6.3.3 通用表空间]()
+[15.6.3.3 通用表空间](general-tablespaces.md)
 
 [15.6.3.4 Undo表空间]()
 
