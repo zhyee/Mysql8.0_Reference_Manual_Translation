@@ -1,0 +1,26 @@
+## 第11章 数据类型
+> 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/data-types.html](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
+
+### 目录
+
+- [11.1 数字类型](data-types/numeric-types.md)
+- [11.2 时间和日期类型](data-types/mysql-acid.md)
+- [11.3 字符串类型](data-types/innodb-multi-versioning.md)
+- [11.4 地理空间类型](data-types/innodb-architecture.md)
+- [11.5 JSON类型](data-types/innodb-in-memory-structures.md)
+- [11.6 数据类型的默认值](data-types/innodb-on-disk-structures.md)
+- [11.7 数据类型对存储引擎的要求](data-types/InnoDB Locking and Transaction Model)
+- [11.8 选择合适的数据类型](data-types/InnoDB Configuration)
+- [11.9 使用来自其他数据引擎的数据类型](data-types/InnoDB Table and Page Compression)
+
+MySQL支持几大类型的数据类型：数字类型、日期时间类型、字符串（字符和字节）类型、地理空间类型、以及JSON数据类型。本章提供各个大类下数据类型的一个概论，和属性详情介绍，以及数据类型对存储引擎要求的总览。起始的概览力求简洁，对特定类型更详细的介绍请参考属性详情介绍，比如某种数据类型允许赋值的格式。
+
+在接下来的介绍中遵循以下约定：
+
+- 对于整数类型，*M* 表示最大的显示宽度，对于浮点数和定点数，M表示数字可以存储的总位数（有效位），对于字符串类型，M表示字符串的最大长度，*M* 允许的最大值与具体的数据类型有关。
+
+- 浮点数和定点数中的D表示小数点后的数字位数（小数位），最大值可以到30，但不能超过 *M*-2。
+
+- TIME、DATETIME和TIMESTAMP类型的 *fsp* 表示小数秒的精度；也就是小数点后用于表示小数秒的数字部分。*fsp* 必须是0到6之间的值，0表示没有小数部分，如果省略 *fsp*，默认的精度就是0（这和标准sql中的默认值6存在差异，主要是为了兼容MySQL的老版本）。
+
+- 方括号（' [ '和' ] '）表示类型定义中的可选部分。
