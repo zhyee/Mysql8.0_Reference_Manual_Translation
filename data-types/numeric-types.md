@@ -2,13 +2,13 @@
 
 > 原文地址：[https://dev.mysql.com/doc/refman/8.0/en/numeric-types.html](https://dev.mysql.com/doc/refman/8.0/en/numeric-types.html)
 
-- [11.1.1 数值类型语法](data-types/numeric-type-syntax.md)
-- [11.1.2 整形（精确值类型）- INTEGER,INT,SMALLINT,TINYINT,MEDIUMINT,BIGINT](data-types/)
-- [11.1.3 定点数（精确值类型）- DECIMAL,NUMERIC](data-types/)
-- [11.1.4 浮点数（非精确值类型）- FLOAT,DOUBLE](data-types/)
-- [11.1.5 比特值类型 - BIT](data-types/)
-- [11.1.6 数字类型的属性](data-types/)
-- [11.1.7 超出范围和溢出处理](data-types/)
+- [11.1.1 数值类型语法](numeric-type-syntax.md)
+- [11.1.2 整形（精确值类型）- INTEGER, INT, SMALLINT, TINYINT, MEDIUMINT, BIGINT](numeric-types.md)
+- [11.1.3 定点数（精确值类型）- DECIMAL, NUMERIC](numeric-types.md)
+- [11.1.4 浮点数（非精确值类型）- FLOAT, DOUBLE](numeric-types.md)
+- [11.1.5 比特值类型 - BIT](numeric-types.md)
+- [11.1.6 数字类型的属性](numeric-types.md)
+- [11.1.7 超出范围和溢出处理](numeric-types.md)
 
 MySQL支持所有的标准SQL数值类型，这些类型包括精确的数值类型（INTEGER、SMALLINT、DECIMAL和NUMERIC），也支持非精确数值类型（FLOAT、REAL和DOUBLE PRECISION）。INT是INTEGER的同义词，DEC和FIXED是DECIMAL的同义词，MySQL把DOUBLE作为DOUBLE PRECISION的同义词（非标准扩展），同时在没有开启REAL_AS_FLOAT模式时，MySQL也把REAL当做DOUBLE PRECISION的同义词（非标准扩展）。
 
