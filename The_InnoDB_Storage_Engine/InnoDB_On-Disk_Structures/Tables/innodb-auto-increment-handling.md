@@ -2,7 +2,7 @@
 
 > 原文地址： [https://dev.mysql.com/doc/refman/8.0/en/innodb-auto-increment-handling.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-auto-increment-handling.html)
 
-InnoDB提供了一个可配置的锁机制，该机制能够有效提升向拥有自增列的表中新增数据时的SQL语句的可靠性和性能。为了在InnoDB表中使用自增机制，一个自增列必须被定义为索引的一部分以便可以在表中使用类似`SELECT MAX(ai_col)`的查询来获取列的最大值。一般来说，通过定义自增列为索引的首列来实现。
+InnoDB提供了一个可配置的锁机制，该机制能够通过添加自增列有效提升SQL语句的可靠性和性能。为了在InnoDB表中使用自增机制，一个自增列必须被定义为索引的一部分以便可以在表中使用类似`SELECT MAX(ai_col)`的查询来获取列的最大值。一般来说，通过定义自增列为索引的首列来实现。
 
 这一节介绍`AUTO_INCREMENT`锁定模式的行为，不同的`AUTO_INCREMENT`锁定模式设置，以及InnoDB如何初始化 `AUTO_INCREMENT`的计数器。
 
