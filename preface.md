@@ -2,7 +2,7 @@
 
 > 原文地址： [https://dev.mysql.com/doc/refman/8.0/en/preface.html](https://dev.mysql.com/doc/refman/8.0/en/preface.html)
 
-这是MySQL数据库8.0到8.0.19发行版的参考手册。MySQL8.0小版本之间的区别在相关版本（8.0.x）的呈现文档上有提到。要查看许可证信息请阅读法律声明。
+这是MySQL数据库8.0到8.0.19发行版的参考手册。MySQL8.0小版本之间的区别在相关版本（8.0.x）的呈现文档上有提到。要查看许可证信息请阅读[法律声明](#user-content-法律声明)。
 
 这个文档不打算介绍MySQL旧版本如何使用，因为MySQL8.0和之前的版本存在很多函数和其他的差别。如果你正在使用一个较老的版本，你可以参考配套的手册。比如 *MySQL 5.7参考手册*包含MySQL5.7版本的手册。
 
