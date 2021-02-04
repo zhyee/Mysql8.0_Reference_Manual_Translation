@@ -46,5 +46,5 @@ AMD、Opteron、AMD标志和AMD Opteron标志是AMD的商标或注册商标。UN
 * * *
 
 [Up to above](#user-content-前言和法律声明)
-[Prev](The_introduction/manual-info.md)
+[Prev](The_Introduction/manual-info.md)
 [Next](The_Introduction.md)
