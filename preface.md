@@ -1,4 +1,4 @@
-## 前言和法律声明
+# 前言和法律声明
 
 > 原文地址： [https://dev.mysql.com/doc/refman/8.0/en/preface.html](https://dev.mysql.com/doc/refman/8.0/en/preface.html)
 
@@ -10,7 +10,7 @@
 
 **版权信息-MySQL NDB集群**。 如果你正在使用MySQL8.0 NDB集群的社区版，请查看MySQL8.0 NDB集群发行版用户手册里的版本声明，第三方软件相关的版权声明可能页包含在这份声明中。
 
-#### 法律声明
+## 法律声明
 
 版权©1997，2019，Oracle 和/或它的附属子公司。保留所有权利。
 
@@ -36,9 +36,9 @@ AMD、Opteron、AMD标志和AMD Opteron标志是AMD的商标或注册商标。UN
 
 你可以打印本文档的副本仅供你个人使用。只要实质内容没有以任何方式进行实质性的更改和编辑，把文档转换成其他格式是允许的。除非你使用和Oracle类似的发布文档的方式（即通过软件的网站下载电子版）或者用CD-ROM或者类似的媒介，总之本文档需要和本软件在相同的媒介上捆绑发布。任何其他用途，例如在其他出版物中全部或部分传播印刷本或使用本文档，均需得到Oracle授权人的书面同意。Oracle及其附属公司保留不限于上文提到的文档的所有权限。
 
-##### 文档可访问性
+## 文档可访问性
 
 了解更多关于Oracle文档的可访问性承诺，请查看位于[http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc](http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc)的Oracle可访问程序网站。
 
-##### 获取Oracle支持
+## 获取Oracle支持
 已经购买了Oracle支持服务的用户可以得到通过`我的Oracle支持`获得在线支持。更多相关信息，请访问网站[http://www.oracle.com/pls/topic/lookup?ctx=acc&id=info](http://www.oracle.com/pls/topic/lookup?ctx=acc&id=info)，或者有听力障碍的用户可以访问[http://www.oracle.com/pls/topic/lookup?ctx=acc&id=trs]( http://www.oracle.com/pls/topic/lookup?ctx=acc&id=trs)。
