@@ -4,11 +4,11 @@
 
 这是MySQL数据库8.0到8.0.19发行版的参考手册。MySQL8.0小版本之间的区别在相关版本（8.0.x）的呈现文档上有提到。要查看许可证信息请阅读[法律声明](#user-content-法律声明)。
 
-这个文档不打算介绍MySQL旧版本如何使用，因为MySQL8.0和之前的版本存在很多函数和其他的差别。如果你正在使用一个较老的版本，你可以参考配套的手册。比如 *MySQL 5.7参考手册*包含MySQL5.7版本的手册。
+这个文档不打算介绍MySQL旧版本如何使用，因为MySQL8.0和之前的版本存在很多函数和其他的差别。如果你正在使用一个较老的版本，你可以参考配套的手册。比如 [*MySQL 5.7参考手册*](https://dev.mysql.com/doc/refman/5.7/en/)包含MySQL5.7版本的手册。
 
-**版权信息-MySQL8.0**。此项目可能包含许可使用的第三方软件。如果你正在使用MySQL8.0商业版，请查看MySQL8.0商业版用户手册里的版权信息，这个版权信息可能包含了第三方软件相关的版权信息。如果你正在使用MySQL8.0社区版，请查看MySQL8.0社区版用户手册里的版权信息，这个版权信息里可能包含了第三方软件相关的版权信息。
+**版权信息-MySQL8.0**。此项目可能包含许可使用的第三方软件。如果你正在使用MySQL8.0*商业版*，请查看[MySQL8.0商业版用户手册里的版权信息](https://downloads.mysql.com/docs/licenses/mysqld-8.0-com-en.pdf)，这个版权信息可能包含了第三方软件相关的版权信息。如果你正在使用MySQL8.0*社区版*，请查看[MySQL8.0社区版用户手册里的版权信息](https://downloads.mysql.com/docs/licenses/mysqld-8.0-gpl-en.pdf)，这个版权信息里可能包含了第三方软件相关的版权信息。
 
-**版权信息-MySQL NDB集群**。 如果你正在使用MySQL8.0 NDB集群的社区版，请查看MySQL8.0 NDB集群发行版用户手册里的版本声明，第三方软件相关的版权声明可能页包含在这份声明中。
+**版权信息-MySQL NDB集群**。 如果你正在使用MySQL8.0 NDB集群的*社区版*，请查看[MySQL8.0 NDB集群发行版用户手册里的版本声明](https://downloads.mysql.com/docs/licenses/cluster-8.0-gpl-en.pdf)，第三方软件相关的版权声明可能页包含在这份声明中。
 
 ## 法律声明
 
@@ -42,3 +42,9 @@ AMD、Opteron、AMD标志和AMD Opteron标志是AMD的商标或注册商标。UN
 
 ## 获取Oracle支持
 已经购买了Oracle支持服务的用户可以得到通过`我的Oracle支持`获得在线支持。更多相关信息，请访问网站[http://www.oracle.com/pls/topic/lookup?ctx=acc&id=info](http://www.oracle.com/pls/topic/lookup?ctx=acc&id=info)，或者有听力障碍的用户可以访问[http://www.oracle.com/pls/topic/lookup?ctx=acc&id=trs]( http://www.oracle.com/pls/topic/lookup?ctx=acc&id=trs)。
+
+* * *
+
+[Up to above](#user-content-前言和法律声明)
+[Prev](The_introduction/manual-info.md)
+[Next](The_Introduction.md)
